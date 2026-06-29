@@ -1,0 +1,36 @@
+calendar:
+  semester_start: "2024-01-08"
+  orientation_week: ["2024-01-08", "2024-01-12"]
+  regular_weeks: ["2024-01-15", "2024-02-16"]
+  exam_prep_week: ["2024-02-17", "2024-02-23"]
+  exam_week: ["2024-02-24", "2024-02-28"]
+
+holidays:
+  - "2024-01-14"  # Makar Sankranti
+  - "2024-01-26"  # Republic Day
+
+events:
+  - date: "2024-01-20"
+    name: "Cultural Fest Day 1"
+    zone_multipliers:
+      academic: 0.3
+      residential: 1.5
+  - date: "2024-01-21"
+    name: "Cultural Fest Day 2"
+    zone_multipliers:
+      academic: 0.3
+      residential: 1.5
+  - date: "2024-02-03"
+    name: "Sports Day"
+    zone_multipliers:
+      academic: 0.5
+      residential: 1.2
+
+class_blocks:
+  Block A: "Mon/Wed/Fri 8:00-10:00"
+  Block B: "Mon/Wed/Fri 10:00-12:00"
+  Block C: "Tue/Thu 8:00-11:00"
+  Block D: "Tue/Thu 11:00-14:00"
+  Block E: "Mon-Fri 13:00-15:00"
+  Block F: "Mon-Fri 15:00-17:00"
+  Block G: "Mon-Fri 17:00-19:00"

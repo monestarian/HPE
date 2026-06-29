@@ -1,0 +1,3 @@
+[
+  "tests/test_generator.py::test_generate_port_row_basics"
+]
