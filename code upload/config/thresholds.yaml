@@ -1,0 +1,25 @@
+port_shutdown:
+  idle_duration_minutes: 30
+  max_utilization: 1.0
+  active_mac_count: 0
+  queue_drops: 0
+
+lag_member_removal:
+  min_active_members: 2
+  max_aggregate_utilization: 40.0
+  max_member_utilization: 5.0
+  max_imbalance_ratio: 0.3
+  hist_avg_util_deviation: 5.0
+
+stack_shutdown:
+  min_stack_members: 2
+  max_redundant_utilization: 8.0
+  hours_since_last_failover: 72
+
+storm:
+  precursor_duration_minutes: [30, 60]
+  onset_duration_minutes: [5, 15]
+  peak_duration_minutes: [10, 30]
+  resolution_duration_minutes: [5, 10]
+  queue_depth_high: 200
+  total_util_high: 90
